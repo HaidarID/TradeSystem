@@ -61,7 +61,6 @@ public class Utils {
 						gui.setItem(slot, makeItem(to, " ", 1));
 					}
 				} catch (Exception exc) {
-					// TODO: handle exception
 				}
 				slot++;
 			}
@@ -128,10 +127,6 @@ public class Utils {
 				trade.setOffererReady(status);
 			}
 		}
-	}
-	
-	public static void doubleClick(ItemStack cursor, ItemStack current, Player p) {
-		
 	}
 	
 }
